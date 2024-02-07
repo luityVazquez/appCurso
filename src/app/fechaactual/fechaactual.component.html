@@ -1,0 +1,6 @@
+<p> Sevilla, {{ hoy | date:'d/M/y H:m' }} </p>
+<p> {{ ciudad | uppercase}}, {{ hoy | date:'d-M-y' | uppercase}} a las {{ hoy | date:'H:m Z'}}</p>
+<p> El resultado es {{ resultado | number:'2.2-2'}}</p>
+<p>La cotización actual del dólar es de {{ dolareuro | currency:'EUR'}}</p>
+<p> {{ sexo | i18nSelect: encabezamiento }} {{ nombre }} </p>
+<p>La cotización actual del dólar es de {{ dolareuro | euro }}</p>
