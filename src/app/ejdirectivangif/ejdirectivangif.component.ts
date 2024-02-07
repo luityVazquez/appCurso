@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
 export class EjdirectivangifComponent {
   nombre !: string; //En Angular 13 para declarar sin inicializar usamos !:
 
-  capital !: string;   
+  capital !: string;
 
   constructor() {
   }
